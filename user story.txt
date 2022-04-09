@@ -1,0 +1,27 @@
+Blogging
+
+Blogging System Class DiagramDescribes the structure of a Blogging System classes, their attributes, operations (or methods), and the relationships among objects. The main classes of the Blogging System are Blog, Blog Category, Create Blog, Blog Type, Comment, Technology Blog.
+
+Classes of Blogging System Class Diagram:
+Blog Class  : Manage all the operations of Blog
+Blog Category Class: Manage all the operations of Blog Category
+Create Blog Class  : Manage all the operations of Create Blog
+Blog Type Class : Manage all the operations of Blog Type
+Comment Class: Manage all the operations of Comment
+Technology Blog Class : Manage all the operations of Technology Blog
+
+Classes and their attributes of Blogging System Class Diagram:
+Blog Attributes: blog_id, blog_user_id blog_title, blog_type, blog_content, blog_description
+Blog Category Attributes : blog_category_id, blog_category, blog_category_title, blog_category_type, blog_category_content, blog_category_description
+Create Blog Attributes : blog_id, blog_user_id blog_title, blog_type, blog_content, blog_description
+Blog Type Attributes : blog_type_id, blog_type_name, blog_type_description
+Comment Attributes: comment_id, comment_user_id, comment_type, comment_title, comment_description
+Technology Blog Attributes: techonology_blog_id, techonology_blog_user_id, techonology_blog_title, techonology_blog_type, techonology_blog_content, techonology_blog_description
+
+Classes and their methods of Blogging System Class Diagram:
+Blog Methods : addBlog(), editBlog(), deleteBlog(), updateBlog(), saveBlog(), searchBlog()
+Blog Category Methods : addBlog Category(), editBlog Category(), deleteBlog Category(), updateBlog Category(), saveBlog Category(), searchBlog Category()
+Create Blog Methods : addCreate Blog(), editCreate Blog(), deleteCreate Blog(), updateCreate Blog(), saveCreate Blog(), searchCreate Blog()
+Blog Type Methods : addBlog Type(), editBlog Type(), deleteBlog Type(), updateBlog Type(), saveBlog Type(), searchBlog Type()
+Comment Methods: addComment(), editComment(), deleteComment(), updateComment(), saveComment(), searchComment()
+Technology Blog Methods : addTechnology Blog(), editTechnology Blog(), deleteTechnology Blog(), updateTechnology Blog(), saveTechnology Blog(), searchTechnology Blog()
